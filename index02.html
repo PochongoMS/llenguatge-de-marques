@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practica 01</title>
+</head>
+<body>
+    <!-- Div és un element comú d'estructura de l'html, es sol utilizar com a contenidos-->
+    <div class="header-logo">
+       <img src="./sapoculiao.jpg" alt="" width="150" height="150">
+    </div>
+    <div class="header-xarxes">
+        <a href="https://es.linkedin.com/NOMUSUARI" target="_blank">
+        LinkedIn
+        <img src="./LinkedIn.png" alt="" width="90" height="90">
+        </a>
+        <a href="https://x.com/PocholoMagno" target="_blank">
+           X 
+           <img src="./X.png" alt="" width="70" height="70">
+        </a>
+    </div> 
+    <nav>
+        <a href="inici.html">Inici</a>
+        <a href="presentacio.html">Presentació</a>
+        <a href="practiques.html">Practiques</a>
+        <a href="cv.html">CV</a>
+        <a href="contacte.html">Contacte</a>
+    </nav>
+    <section>
+        <h2>Formulari de contacte</h2>
+        <form action="#" method="post">
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="nom" required>
+            <br>
+            <label for="mail">Mail:</label>
+            <input type="text" id="mail" name="mail" required>
+            <br>
+            <label for="motiu">Motiu:</label>
+            <select id="motiu" name="motiu">
+            <option value="consultar">Consulta</option>
+            <option value="feedback">Feedback</option>
+            <option value="altres">Altres</option>
+            <option value="reportar">Reportar</option>
+            </select>
+            <br>
+            <label for="missatge">Missatge:</label>
+            <textarea id="missatge" name="missatge" rows="4" cols="50" required></textarea>
+            <button type="submit">Envia</button> 
+        </form>
+    </section>
+    <!-- L'etiqueta <aside> s'utilitza per a definir contingut addicional que està relacionat amb el contingut principal, però que no és essencial. Normalment es col·loca en una barra lateral o a un costat del contingut principal, i proporciona informació complementària.-->
+    <aside>
+        <h3>Articles relacionats</h3>
+        <ul>
+            <li><a href="article1.html">5 consells per millorar la teva productivitat</a></li>
+            <li><a href="article2.html">Com gestionar el teu temps de manera eficient</a></li>
+            <li><a href="article3.html">Eines digitals per treballar des de casa</a></li>
+        </ul>
+    </aside>
+    <footer>
+        <p>Contacta amb nosaltres: info@contacta.cat</p>
+        <p>Segueix-nos a les xarxes socials: Facebook | Twitter | Instagram</p>
+        
+        <nav>
+            <img src="logo_sapo.webp" alt="" width="45" height="45">
+            <a href="inici.html">Inici</a>
+            <a href="presentacio.html">Presentació</a>
+            <a href="practiques.html">Practiques</a>
+            <a href="cv.html">CV</a>
+            <a href="contacte.html">Contacte</a>
+            <a href="sitemap.xml">Mapa web</a>
+        </nav>
+        <nav>
+            © 2024 Nom del Projecte. Tots els drets reservats.
+        </nav>
+    </footer>
+</body>
+</html>
